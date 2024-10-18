@@ -1,0 +1,4 @@
+repository "ShortJam@E1_2@cloud"
+  path "/"
+    br "/main"
+    co "/main"
