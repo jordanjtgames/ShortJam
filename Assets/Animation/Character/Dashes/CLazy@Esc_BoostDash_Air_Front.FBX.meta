@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 486a7f56f4252d44583a52bd0ec58f6f
+guid: b3c07ebe5cdb15b4e90bc87b71ec4fb7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -19,10 +19,10 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
       copied configuration does not match position in animation file:\n\t'thigh_l'
-      : position error = 1.404218 mm\n\t'calf_l' : position error = 25.597223 mm\n\t'foot_l'
-      : position error = 7.846085 mm\n\t'ball_l' : position error = 3.513190 mm\n\t'thigh_r'
-      : position error = 1.402045 mm\n\t'calf_r' : position error = 10.767511 mm\n\t'foot_r'
-      : position error = 8.847036 mm\n\t'ball_r' : position error = 3.092898 mm\n"
+      : position error = 1.404210 mm\n\t'calf_l' : position error = 26.097006 mm\n\t'foot_l'
+      : position error = 7.786459 mm\n\t'ball_l' : position error = 3.513296 mm\n\t'thigh_r'
+      : position error = 1.402058 mm\n\t'calf_r' : position error = 10.767389 mm\n\t'foot_r'
+      : position error = 8.846899 mm\n\t'ball_r' : position error = 3.092859 mm\n"
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
       might lower retargeting quality:\nNote: Activate translation DOF on avatar
@@ -80,11 +80,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Land_Spawn_Wait
+      name: Esc_BoostDash_Air_Front
       takeName: Take 001
       internalID: 1827226128182048838
-      firstFrame: 1.8
-      lastFrame: 26
+      firstFrame: 1.6
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -93,10 +93,10 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0

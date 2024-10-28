@@ -88,7 +88,9 @@ public class DevTools : MonoBehaviour
 
 		if(Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.Escape))
 		{
+#if UNITY_EDITOR
 			EditorApplication.ExecuteMenuItem("Edit/Play");
+#endif
 		}
 
 		consoleTMP.text = DevTools.inGameConsoleOutput;

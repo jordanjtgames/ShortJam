@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditor.Compilation;
-using UnityEngine;
+#endif
 
 [ExecuteInEditMode]
 public class CustomCompile : MonoBehaviour
 {
+#if UNITY_EDITOR
 	public bool refresh = false;
 
 	public void TestGame()
@@ -73,9 +76,11 @@ public class CustomCompile : MonoBehaviour
 		//TestGame();
 		changed = true;
 	}
+#endif
 }
 
 
+#if UNITY_EDITOR
 // ensure class initializer is called whenever scripts recompile
 [InitializeOnLoadAttribute]
 public static class PlayModeStateChangedExample
@@ -112,3 +117,4 @@ public static class PlayModeStateChangedExample
 		}
 	}
 }
+#endif
